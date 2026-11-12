@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Burhan Abdul Rehman’s First Birthday</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sky" id="sky" aria-hidden="true"></div>
+
+<main>
+  <section class="hero">
+    <p class="pre">Please join us to celebrate</p>
+    <div class="one" aria-hidden="true"><div class="bal"></div><b>1</b></div>
+    <h1>Burhan Abdul Rehman’s First Birthday</h1>
+    <p class="when">Saturday, 14 November 2026 · 8:00 PM onwards</p>
+    <div class="cd" id="cd" data-date="2026-11-14T20:00:00+05:00" aria-label="Countdown to the party">
+      <div><strong id="cd-d">00</strong><span>Days</span></div>
+      <div><strong id="cd-h">00</strong><span>Hours</span></div>
+      <div><strong id="cd-m">00</strong><span>Mins</span></div>
+      <div><strong id="cd-s">00</strong><span>Secs</span></div>
+    </div>
+    <p class="when disp" id="cd-done" hidden>It’s party time!</p>
+  </section>
+
+  <section>
+    <h2>One whole year of giggles</h2>
+    <p class="lead">Our little boy is turning one, and we would love you to share the cake, the balloons and the happy chaos with us.</p>
+    <div class="info">
+      <div><em>📅</em><h3>The day</h3><p>Saturday, 14 November 2026</p></div>
+      <div><em>⏰</em><h3>The time</h3><p>8:00 PM onwards</p></div>
+      <div><em>📍</em><h3>The place</h3><p>Rose Garden Hall, Clifton, Karachi</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How the evening will go</h2>
+    <ul class="tl">
+      <li><strong>8:00 PM – Welcome and play time</strong><span>Toys, music and bubbles for the little ones</span></li>
+      <li><strong>8:45 PM – Cake cutting</strong><span>Plus a very messy cake smash</span></li>
+      <li><strong>9:15 PM – Games and photos</strong><span>Balloon pop, photo corner, family pictures</span></li>
+      <li><strong>10:00 PM – Dinner</strong><span>Time to celebrate together</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="rsvp">
+      <h2>Will you come?</h2>
+      <div id="ask">
+        <p class="lead" style="margin-bottom:10px">Let us know so we can save you a seat and a slice of cake.</p>
+        <input id="guest" type="text" placeholder="Your name" aria-label="Your name" autocomplete="name">
+        <div class="btns">
+          <button class="yes" id="yes" type="button">Yes, I’ll be there</button>
+          <button class="no" id="no" type="button">Can’t make it</button>
+        </div>
+      </div>
+      <div class="thanks" id="reply" hidden aria-live="polite">
+        <p class="disp" id="reply-t"></p>
+        <p class="lead" id="reply-s" style="margin:10px auto 18px"></p>
+        <button class="no" id="undo" type="button">Change my reply</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p class="disp">With love, Mama, Baba & the whole family</p>
+  <p>Made with balloons and a lot of joy</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
